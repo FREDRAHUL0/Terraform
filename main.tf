@@ -1,4 +1,3 @@
-/*
 locals {
   my_region = "ap-south-1"
   my_cidr = ["192.168.10.0/24" , "172.16.5.0/24"]
@@ -14,4 +13,4 @@ locals {
     cidr_block = local.my_cidr[1]
     tags = local.my_tags
   }  
-*/
+
